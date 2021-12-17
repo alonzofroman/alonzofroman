@@ -1,13 +1,17 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import ResponsiveAppBar from './components/navbar';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Navbar from './components/navbar';
+import About from './components/about';
 
 function App() {
   return (
-    <div className="App">
-     <ResponsiveAppBar />
-    </div>
+     <Router>
+       <Navbar />
+       <Routes>
+         <Route path='/about'> component={About} </Route>
+       </Routes>
+     </Router> 
   );
 }
 
