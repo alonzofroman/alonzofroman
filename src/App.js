@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import About from './components/about';
 
@@ -9,7 +9,7 @@ function App() {
      <Router>
        <Navbar />
        <Routes>
-         <Route path='/about'> component={About} </Route>
+         <Route path="/about" component={About} />
        </Routes>
      </Router> 
   );
