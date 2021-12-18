@@ -10,9 +10,9 @@ function App() {
      <Router>
        <Navbar />
        <Routes>
-         <Route path="/about" component={About} />
-         <Route path='/contact' component={Contact} />
-         
+         <Route path="/about" element={<About />} />
+         <Route path='/contact' element={<Contact />} />
+
        </Routes>
      </Router> 
   );
