@@ -1,0 +1,37 @@
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contactForm {
+    padding: 16px;
+    border-style: solid;
+    border-color: black;
+}
+
+.formInput {
+    width: 400px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.submit-btn {
+    background-color: rgb(54, 54, 68);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .formInput {
+        width: 80vw;
+    }
+}

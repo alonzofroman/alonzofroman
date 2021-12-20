@@ -2,6 +2,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import '../styles/contact.css';
 
 const Contact = () => {
   const {
@@ -53,6 +54,7 @@ const Contact = () => {
 
   return (
     <div className='ContactForm'>
+        <h2>Contact Me</h2>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
@@ -61,7 +63,7 @@ const Contact = () => {
                 {/* Row 1 of form */}
                 <div className='row formRow'>
                   <div className='col-6'>
-                    <input
+                    <input 
                       type='text'
                       name='name'
                       {...register('name', {
