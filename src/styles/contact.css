@@ -14,9 +14,9 @@
 }
 
 .formInput {
-    width: 400px;
+    width: 50vw;
     margin-top: 10px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .errorMessage {
