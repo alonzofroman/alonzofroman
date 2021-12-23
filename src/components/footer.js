@@ -1,5 +1,7 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import Resume from '../assets/files/resume.pdf'
 
 var style = {
     backgroundColor: "#F8F8F8",
@@ -28,6 +30,7 @@ function Footer() {
                 <div className='footLinks'>
                     <a href='https://github.com/alonzofroman'><FaGithub size={40}/></a>
                     <a href='https://linkedin.com/alonzo-roman'><FaLinkedin size={40}/></a>
+                    <a href={Resume} download><FaFilePdf size={40}/></a>
                 </div>
             </div>
         </div>
