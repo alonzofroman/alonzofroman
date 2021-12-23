@@ -7,3 +7,26 @@
     align-items: center;
 }
 
+.otherProjects {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .otherProjects a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.otherProjects a:hover {
+    background-color: grey;
+    color: white;
+} */
