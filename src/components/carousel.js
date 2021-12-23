@@ -7,6 +7,9 @@ import '../styles/carousel.css';
 import Charity from '../assets/images/charities.jpg';
 import Haunted from '../assets/images/haunted.jpg';
 import Weather from '../assets/images/weather.jpg';
+import Notes from '../assets/images/notes.jpg';
+import Workout from '../assets/images/workout.jpg';
+import Blog from '../assets/images/blog.jpg';
 
 
 
@@ -38,6 +41,33 @@ export default class ProjectCarousel extends Component {
                     <div className='carLinks'>
                         <a href='https://github.com/alonzofroman/weather-dash'><FaGithub size={30} /></a>
                         <a href='https://alonzofroman.github.io/weather-dash/'><CgWebsite size={30}/></a>
+                    </div>
+                </div>
+
+                <div>
+                    <img className='carImg' src={Notes} alt='note taking site'/>
+                    <p className='legend'>Express Note Taker</p>
+                    <div className='carLinks'>
+                        <a href='https://github.com/alonzofroman/express-note-taker'><FaGithub size={30} /></a>
+                        <a href='https://mysterious-retreat-76947.herokuapp.com'><CgWebsite size={30} /></a>
+                    </div>
+                </div>
+
+                <div>
+                    <img className='carImg' src={Workout} alt='Workout Tracker'/>
+                    <p className='legend'>Workout Tracker</p>
+                    <div className='carLinks'>
+                        <a href='https://github.com/alonzofroman/workout-tracker'><FaGithub size={30} /></a>
+                        <a href='https://morning-stream-56566.herokuapp.com/'><CgWebsite size={30} /></a>
+                    </div>
+                </div>
+
+                <div>
+                    <img className='carImg' src={Blog} alt='Tech Blog'/>
+                    <p className='legend'>Tech Blog</p>
+                    <div className='carLinks'>
+                        <a href='https://github.com/alonzofroman/tech-blog'><FaGithub size={30} /></a>
+                        <a href='https://nameless-sierra-18621.herokuapp.com/'><CgWebsite size={30} /></a>
                     </div>
                 </div>
 
