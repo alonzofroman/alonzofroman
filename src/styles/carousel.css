@@ -1,0 +1,24 @@
+.carousel {
+    height: 600px;
+    width: 1000px;
+}
+
+.carImg {
+    object-fit: contain;
+}
+
+.carLinks {
+    display: inline;
+}
+
+.carLinks a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel {
+        height: auto;
+        width: auto;
+    }
+}
