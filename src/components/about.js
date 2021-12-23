@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/about.css";
 import { FaJsSquare, FaGithub, FaGitAlt, FaHtml5, FaCss3, FaNodeJs, FaReact } from "react-icons/fa";
 import { DiMysql, DiMongodb } from 'react-icons/di';
-import { SiApollographql } from 'react-icons/si';
+import { SiApollographql, SiWebpack, SiJquery, SiBootstrap, SiGraphql, SiHeroku } from 'react-icons/si';
 
 function About() {
   return (
@@ -31,8 +31,18 @@ function About() {
         </div>
 
         <div className='skill'>
+          <p>jQuery</p>
+          <SiJquery size={60} />
+        </div>
+
+        <div className='skill'>
             <p>CSS</p>
             <FaCss3 size={60} />
+        </div>
+
+        <div className='skill'>
+          <p>Bootstrap</p>
+          <SiBootstrap size={60} />
         </div>
 
         <div className='skill'>
@@ -61,6 +71,11 @@ function About() {
         </div>
 
         <div className='skill'>
+          <p>GraphQL</p>
+          <SiGraphql size={60} />
+        </div>
+
+        <div className='skill'>
             <p>Git</p>
             <FaGitAlt size={60} />
             
@@ -69,6 +84,16 @@ function About() {
         <div className='skill'>
             <p>Github</p>
             <FaGithub size={60} />
+        </div>
+
+        <div className='skill'>
+          <p>Heroku</p>
+          <SiHeroku size={60} />
+        </div>
+
+        <div className='skill'>
+          <p>Webpack</p>
+          <SiWebpack size={60} />
         </div>
 
       </div>
