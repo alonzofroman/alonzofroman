@@ -1,11 +1,17 @@
 import React from 'react';
+import Typewriter from './typewriter';
+import '../styles/home.css';
 
-function Home () {
+export default function Home() {
     return (
-        <div>
+        <div className='homepage'>
+            
+            <div className='homeText'>
+            <p>Hello. My name is Alonzo Roman</p>
+            <Typewriter />
+            </div>
+            
 
         </div>
     )
-};
-
-export default Home;
+}
