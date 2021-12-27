@@ -11,14 +11,34 @@
     display: inline;
 }
 
-.carLinks a {
-    padding-left: 10px;
-    padding-right: 10px;
+.legend {
+    font-size: large;
 }
+
+#slideLegend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideName {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.legend a {
+    color: white;
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
     .carousel {
         height: 50vw;
         width: 100vw;
     }
+
 }
