@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-const words = ["Full-Stack Web Developer"];
+const words = ["Full-Stack Web Developer", "Front-End Web Developer", "Back-End Web Developer", "Full-Stack Web Developer"];
 
 export default function Typewriter() {
   const [index, setIndex] = useState(0);
