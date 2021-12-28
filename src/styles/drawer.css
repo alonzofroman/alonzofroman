@@ -1,0 +1,12 @@
+.drawerLink {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: inline;
+    align-items: center;
+}
+
+.drawerLink:hover {
+    text-decoration: underline;
+}

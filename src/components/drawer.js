@@ -9,6 +9,10 @@ import {
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu"
+import { FaHome, FaProjectDiagram } from 'react-icons/fa';
+import { GoPerson } from 'react-icons/go';
+import { FiMail } from 'react-icons/fi';
+import '../styles/drawer.css';
 
 const useStyles = makeStyles(()=>({
     link:{
@@ -33,22 +37,22 @@ const classes = useStyles();
         <List>
          <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/">Home</Link>
+              <Link to="/" className='drawerLink'><FaHome />Home</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/about">About Me</Link>
+              <Link to="/about" className='drawerLink'><GoPerson />About Me</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" className='drawerLink'><FaProjectDiagram />Projects</Link>
             </ListItemText>
           </ListItem>
           <ListItem onClick={() => setOpenDrawer(false)}>
             <ListItemText>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" className='drawerLink'><FiMail />Contact</Link>
             </ListItemText>
           </ListItem>
         </List>
