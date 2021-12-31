@@ -29,7 +29,7 @@ function Footer() {
             <div style={style}>
                 <div className='footLinks'>
                     <a href='https://github.com/alonzofroman'><FaGithub size={40}/></a>
-                    <a href='https://linkedin.com/alonzo-roman'><FaLinkedin size={40}/></a>
+                    <a href='https://www.linkedin.com/in/alonzo-roman-4a5325138/'><FaLinkedin size={40}/></a>
                     <a href={Resume} download><FaFilePdf size={40}/></a>
                 </div>
             </div>
