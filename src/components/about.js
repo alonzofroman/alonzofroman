@@ -17,6 +17,8 @@ function About() {
         work ethic.
       </p>
 
+      <p className='contactAbout'>Email: alonzofromancoding@gmail.com</p>
+
       <h3>Skills</h3>
       <div className='skillIcons'>
 
