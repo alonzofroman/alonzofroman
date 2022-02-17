@@ -98,7 +98,10 @@ function About() {
           <SiWebpack size={60} />
         </div>
 
-        
+        <div className='skill'>
+          <p>Firebase</p>
+          <SiFirebase size={60} />
+        </div>
 
       </div>
     </div>
