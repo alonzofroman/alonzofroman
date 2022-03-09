@@ -14,7 +14,8 @@ function About() {
         Berkeley Extension's Coding Bootcamp. My experiences in the coding bootcamp
         have prepared me and made me confident in my ability to work in any team
         environment, and my experience in the Marine Corps has given me a strong
-        work ethic.
+        work ethic. I am confident my experience and desire to learn will make me a
+        strong addition to any team. 
       </p>
 
       <p className='contactAbout'>Email: alonzofromancoding@gmail.com</p>
